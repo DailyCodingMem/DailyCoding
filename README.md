@@ -1,12 +1,12 @@
 # DailyCoding
 ##  Member
 
-- [dalkang](https://github.com/orgs/DailyCodingMem/people/dalkang)
-- [JaehyukChoi923](https://github.com/orgs/DailyCodingMem/people/JaehyukChoi923)
-- [MakeMoneying](https://github.com/orgs/DailyCodingMem/people/Jihyeok11)
-- [jong0717](https://github.com/orgs/DailyCodingMem/people/jong0717)
-- [Siyoung Kim](https://github.com/orgs/DailyCodingMem/people/JudyH0pps)
-- [zjohn99](https://github.com/orgs/DailyCodingMem/people/zjohn99)
+- [dalkang](https://github.com/dalkang)
+- [JaehyukChoi923](https://github.com/JaehyukChoi923)
+- [MakeMoneying](https://github.com/Jihyeok11)
+- [jong0717](https://github.com/jong0717)
+- [Siyoung Kim](https://github.com/JudyH0pps)
+- [zjohn99](https://github.com/zjohn99)
 
 
 
