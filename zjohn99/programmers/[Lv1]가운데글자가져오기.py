@@ -8,7 +8,8 @@ def solution(s):
     answer = ''
     if len(s)%2 == 0 : # 길이가 짝수일 때,
         answer += s[len(s)//2-1]
-        answer += s[len(s)//2]    
+        answer += s[len(s)//2] 
+        # s[len(s)//2-1 : len(s)//2+1]  오오
     else :
         answer += s[len(s)//2]
 
