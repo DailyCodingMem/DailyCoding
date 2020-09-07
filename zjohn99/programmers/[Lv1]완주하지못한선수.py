@@ -24,9 +24,7 @@ def solution(participant, completion):
 T = int(input())
 for _ in range(T):
     p = list(input().split())
-    print(p)
     c = list(input().split())
-    print(p)
 
     print(solution(p,c))    
 
