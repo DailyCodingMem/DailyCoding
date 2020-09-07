@@ -1,5 +1,5 @@
 # swea - [1206]view (2020-09-02)
-# https://codeup.kr/problem.php?id=1164
+# https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV134DPqAA8CFAYh
 
 import sys
 sys.stdin = open("swea/[1206]view.txt",'r')
