@@ -6,3 +6,4 @@ sys.stdin = open("codeup/[중첩반복문]1358_삼각형5.txt",'r')
 
 T = int(input())
 for _ in range(T):
+    pass
