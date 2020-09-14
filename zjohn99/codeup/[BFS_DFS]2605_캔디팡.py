@@ -1,5 +1,5 @@
 # codeup - BFS/DFS - 캔디팡 (2020-09-14)
-# https://codeup.kr/problem.php?id=1380
+# https://codeup.kr/problem.php?id=2605
 
 import sys
 sys.stdin = open("codeup/[BFS_DFS]2605_캔디팡.txt",'r')
