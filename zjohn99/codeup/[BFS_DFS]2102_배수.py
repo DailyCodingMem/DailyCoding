@@ -2,6 +2,7 @@
 # https://codeup.kr/problem.php?id=2102
 # 가장작은 자연수 -> bfs로 풀기
 # 시간초과....
+
 import sys
 sys.stdin = open("codeup/[BFS_DFS]2102_배수.txt",'r')                     
 
