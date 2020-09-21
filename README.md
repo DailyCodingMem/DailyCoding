@@ -28,17 +28,25 @@ https://codingabc.tistory.com/
 
 ##  Daily coding
 
-
-
-### 4주차 0921~0928
+### 5주차 0928~1004
 
 | 요일 | CODEUP ( 2문제 다 풀기)                                      | Programmers , Baekjoon , SWEA  (택1)                         |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 0914 | [BFS/DFS] [4023 : 오목](https://codeup.kr/problem.php?id=4023)<br>[스택] [3102 : STL stack](https://codeup.kr/problem.php?id=3102) | [프로그래머스(Lv2)] [멀쩡한 사각형 (2019 Summer/Winter Coding)](https://programmers.co.kr/learn/courses/30/lessons/62048)<br>[프로그래머스(Lv2)] [스킬 트리(2019 Summer/Winter Coding)](https://programmers.co.kr/learn/courses/30/lessons/49993)<br/> |
-| 0915 | [BFS/DFS] [4024 : 호수의 수 구하기](https://codeup.kr/problem.php?id=4024)<br>[스택] [3127 : 수식 계산 1](https://codeup.kr/problem.php?id=3127) | [프로그래머스(Lv2)] [가장 큰 수 ( 정렬 )](https://programmers.co.kr/learn/courses/30/lessons/42746)<br>[프로그래머스(Lv2)] [H-Index( 정렬 )](https://programmers.co.kr/learn/courses/30/lessons/42747)<br/> |
-| 0916 | [BFS/DFS] [4039 : 놀이공원](https://codeup.kr/problem.php?id=4039)<br>[스택] [3129 : 올바른 괄호 2](https://codeup.kr/problem.php?id=3129) | [프로그래머스(Lv2)] [조이스틱 (탐욕법(Greedy))](https://programmers.co.kr/learn/courses/30/lessons/42860)<br/>[프로그래머스(Lv3)] [섬 연결하기(탐욕법(Greedy)))](https://programmers.co.kr/learn/courses/30/lessons/42861)<br/> |
-| 0917 | [BFS/DFS] [4060 : 전광판 전구 조작](https://codeup.kr/problem.php?id=4060)<br/>[스택] [3130 : 소들의 헤어스타일](https://codeup.kr/problem.php?id=3130) | [프로그래머스(Lv2)] [카펫 ( 완전 탐색 )](https://programmers.co.kr/learn/courses/30/lessons/42842)<br/>[프로그래머스(Lv2)] [N개의 최소공배수 ](https://programmers.co.kr/learn/courses/30/lessons/12953)<br/> |
-| 0918 | [BFS/DFS] [4421 : 단지 번호 붙이기](https://codeup.kr/problem.php?id=4421)<br/>[스택] [4654 : 탑](https://codeup.kr/problem.php?id=4654) | [프로그래머스(Lv2)] [수식 최대화 (2020 카카오 인턴)](https://programmers.co.kr/learn/courses/30/lessons/67257)<br>[프로그래머스(Lv2)] [ 프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) |
+| 0928 | [BFS/DFS] [4503 : 바이러스](https://codeup.kr/problem.php?id=4503)<br>[이분탐색] [2633 : Lower Bound](https://codeup.kr/problem.php?id=2633) | [프로그래머스(Lv2)] [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)<br>[프로그래머스(Lv3)] [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)<br/> |
+| 0929 | [BFS/DFS] [4572 : 영역구하기](https://codeup.kr/problem.php?id=4572)<br>[이분탐색] [4514 : 숫자 구슬](https://codeup.kr/problem.php?id=4514) | [프로그래머스(Lv2)] [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)<br>[프로그래머스(Lv3)] [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)<br/> |
+| 0930 | [BFS/DFS] [4697 : 안전 영역](https://codeup.kr/problem.php?id=4697)<br>[이분탐색] [4766 : 예산](https://codeup.kr/problem.php?id=4766) | [프로그래머스(Lv2)] [영어끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981)<br/>[프로그래머스(Lv3)] [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)<br/> |
+| 1001 | [BFS/DFS] [4714 : 키 순서](https://codeup.kr/problem.php?id=4714)<br/>[이분탐색] [5024 : 공격적인 소들](https://codeup.kr/problem.php?id=5024) | [프로그래머스(Lv2)] [다음큰숫자](https://programmers.co.kr/learn/courses/30/lessons/12911)<br/>[프로그래머스(Lv3)] [불량사용자(2019카카오겨울인턴) ](https://programmers.co.kr/learn/courses/30/lessons/64064)<br/> |
+| 1002 | [BFS/DFS] [4781 : 토마토(고등)](https://codeup.kr/problem.php?id=4781)<br/>[이분탐색] [2631 : 보물 찾기](https://codeup.kr/problem.php?id=2631) | [프로그래머스(Lv2)] [124나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)<br>[프로그래머스(Lv3)] [ 단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |
+
+### 4주차 0921~0927
+
+| 요일 | CODEUP ( 2문제 다 풀기)                                      | Programmers , Baekjoon , SWEA  (택1)                         |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 0921 | [BFS/DFS] [4023 : 오목](https://codeup.kr/problem.php?id=4023)<br>[스택] [3102 : STL stack](https://codeup.kr/problem.php?id=3102) | [프로그래머스(Lv2)] [멀쩡한 사각형 (2019 Summer/Winter Coding)](https://programmers.co.kr/learn/courses/30/lessons/62048)<br>[프로그래머스(Lv2)] [스킬 트리(2019 Summer/Winter Coding)](https://programmers.co.kr/learn/courses/30/lessons/49993)<br/> |
+| 0922 | [BFS/DFS] [4024 : 호수의 수 구하기](https://codeup.kr/problem.php?id=4024)<br>[스택] [3127 : 수식 계산 1](https://codeup.kr/problem.php?id=3127) | [프로그래머스(Lv2)] [가장 큰 수 ( 정렬 )](https://programmers.co.kr/learn/courses/30/lessons/42746)<br>[프로그래머스(Lv2)] [H-Index( 정렬 )](https://programmers.co.kr/learn/courses/30/lessons/42747)<br/> |
+| 0923 | [BFS/DFS] [4039 : 놀이공원](https://codeup.kr/problem.php?id=4039)<br>[스택] [3129 : 올바른 괄호 2](https://codeup.kr/problem.php?id=3129) | [프로그래머스(Lv2)] [조이스틱 (탐욕법(Greedy))](https://programmers.co.kr/learn/courses/30/lessons/42860)<br/>[프로그래머스(Lv3)] [섬 연결하기(탐욕법(Greedy)))](https://programmers.co.kr/learn/courses/30/lessons/42861)<br/> |
+| 0924 | [BFS/DFS] [4060 : 전광판 전구 조작](https://codeup.kr/problem.php?id=4060)<br/>[스택] [3130 : 소들의 헤어스타일](https://codeup.kr/problem.php?id=3130) | [프로그래머스(Lv2)] [카펫 ( 완전 탐색 )](https://programmers.co.kr/learn/courses/30/lessons/42842)<br/>[프로그래머스(Lv2)] [N개의 최소공배수 ](https://programmers.co.kr/learn/courses/30/lessons/12953)<br/> |
+| 0925 | [BFS/DFS] [4421 : 단지 번호 붙이기](https://codeup.kr/problem.php?id=4421)<br/>[스택] [4654 : 탑](https://codeup.kr/problem.php?id=4654) | [프로그래머스(Lv2)] [수식 최대화 (2020 카카오 인턴)](https://programmers.co.kr/learn/courses/30/lessons/67257)<br>[프로그래머스(Lv2)] [ 프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) |
 
 - 코드업 스택 문제 끝
 
