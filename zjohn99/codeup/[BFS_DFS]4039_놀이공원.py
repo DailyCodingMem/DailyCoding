@@ -2,21 +2,19 @@
 # https://codeup.kr/problem.php?id=4039
 # 최소거리 BFS
 
-### 시간초과..
-
-
 import sys
 sys.stdin = open("codeup/[BFS_DFS]4039_놀이공원.txt",'r')
 
-#
+
+## 시간초과 해결
 def solution(y,x):
     dy = [1, 0, -1, 0]
     dx = [0, 1, 0, -1]
 
     st = [(y,x,1)]
+    visited[y][x] = True
     while(st) :
         y, x, cnt = st.pop(0)
-        visited[y][x] = True
         block = mat[y][x]
 
         for i in range(4) :
@@ -28,9 +26,9 @@ def solution(y,x):
                     if (ny+1,nx+1) == (n,m) :
                         return cnt+1
                     st.append((ny,nx,cnt+1))
+                    visited[ny][nx] = True  # 시간초과 해결 - 이미 들렸던 곳을 또 들리지 않으면 된다.
     else :
         return 0
-
 
 T = int(input())
 for _ in range(T):
