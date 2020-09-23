@@ -10,3 +10,4 @@ def solution(bridge_length, weight, truck):
             else:
                 q.append(0)
     return answer
+print(solution(100,100,[10,10,10,10,10,10,10,10,10,10]))
