@@ -1,0 +1,20 @@
+2
+7
+push( 5 )
+top()
+push( 7 )
+push( 3 )
+top()
+pop()
+size()
+10
+size()
+push( 25 )
+pop()
+top()
+pop()
+empty()
+top()
+empty()
+pop()
+push( 94 )

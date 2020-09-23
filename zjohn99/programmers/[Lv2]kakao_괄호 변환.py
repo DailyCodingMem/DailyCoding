@@ -3,7 +3,7 @@
 
 import sys
 sys.stdin = open("programmers/[Lv2]kakao_괄호 변환.txt",'r')
-
+# 문제를 이해못함..
 def solution():
 
     return 0
