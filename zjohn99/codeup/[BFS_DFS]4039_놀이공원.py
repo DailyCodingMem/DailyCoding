@@ -8,7 +8,7 @@
 import sys
 sys.stdin = open("codeup/[BFS_DFS]4039_놀이공원.txt",'r')
 
-
+#
 def solution(y,x):
     dy = [1, 0, -1, 0]
     dx = [0, 1, 0, -1]
