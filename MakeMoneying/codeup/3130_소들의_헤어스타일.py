@@ -23,5 +23,4 @@ for i in range(1,N):
             else:
                 basket = [List[i]]
                 break
-    
 print(answer)
