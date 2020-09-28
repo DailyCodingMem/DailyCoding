@@ -22,11 +22,6 @@ def solution():
     return cnt
 
 
-        
-
-
-
-
 T = int(input())
 for _ in range(T):
     n = int(input())
