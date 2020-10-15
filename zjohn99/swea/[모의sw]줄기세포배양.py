@@ -55,7 +55,6 @@ for t in range(1, T+1):
     in_arr = [list(map(int, input().split())) for _ in range(N)]
     arr = [[0 for _ in range(700)] for _ in range(700)]
     active = list([] for _ in range(11))
-    # print(active)
 
     for i in range(N):
         for j in range(M) :
