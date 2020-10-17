@@ -1,6 +1,6 @@
 # baekjoon - [15683]감시 (2020-10-15)
 # https://www.acmicpc.net/problem/15683
-
+from pprint import pprint
 import sys
 sys.stdin = open("baekjoon/[15683]감시.txt",'r')
 
@@ -72,6 +72,8 @@ for t in range(1, T+1):
                 visited[i][j] = True
                 solution(i, j, mat[i][j]) # cctv 위치
 
-
+    if t == 18 :
+        pprint(mat)
     print(blind)
+    
 
