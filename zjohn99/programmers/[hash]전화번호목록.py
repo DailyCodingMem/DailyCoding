@@ -16,17 +16,27 @@ sys.stdin = open("programmers/[hash]전화번호목록.txt",'r')
 #                 return answer
 #     return answer
 
+# def solution(phone_book):
+#     for i in range(len(phone_book)) :
+#         tmp = phone_book[i]
+#         len_tmp = len(tmp)
+#         for j in range(len(phone_book)) :
+#             if tmp == phone_book[j][:len_tmp] and i != j :
+#                 return False
+    
+#     return True
 
-def solution(phone_book):
+# startswith 사용하는 방법. 문자열이 특정문자로 시작하는지 여부를 알려줌
+# startswith(시작하는문자, 시작지점) - 시작하면 True
+def solution(phone_book) :
     for i in range(len(phone_book)) :
         tmp = phone_book[i]
-        len_tmp = len(tmp)
         for j in range(len(phone_book)) :
-            if tmp == phone_book[j][:len_tmp] and i != j :
+            if i != j and phone_book[j].startswith(tmp) :
                 return False
     
     return True
-
+            
 
 
 
