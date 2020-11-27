@@ -1,7 +1,7 @@
 # swea - [모의sw]줄기세포배양 (2020-10-14)
 # https://swexpertacademy.com/main/learn/course/lectureProblemViewer.do
 
-import sys
+import sys         
 sys.stdin = open("swea/[모의sw]줄기세포배양.txt",'r')
 
 def solution() :
