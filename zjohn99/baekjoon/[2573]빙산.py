@@ -85,3 +85,62 @@ for t in range(1, T+1):
                 ice.append((i,j))
 
     print(solution())
+
+
+# from collections import deque
+
+# Y,X = map(int,input().split())
+# List = list( list(map(int,input().split())) for _ in range(Y))
+# dy = [-1,1,0,0]
+# dx = [0,0,-1,1]
+
+# def bingSan(y,x):
+#     global visited
+#     basket = deque([(y,x)])
+#     result = deque()
+#     visited[y][x] = False
+#     while basket:
+#         newY, newX = basket.popleft()
+#         cnt = 0
+#         for i in range(4):
+#             checkY = newY + dy[i]
+#             checkX = newX + dx[i]
+#             if 0<=checkY<Y and 0<= checkX<X and not List[checkY][checkX]:
+#                 cnt += 1
+#         result.append([newY,newX,cnt])
+#         for j in range(4):
+#             nextY = newY + dy[j]
+#             nextX = newX + dx[j]
+#             if 0<= nextY < Y and 0<=nextX < X and List[nextY][nextX] and visited[nextY][nextX]:
+#                 visited[nextY][nextX] = False
+#                 basket.append((nextY,nextX))
+#     return result
+# year = 0
+# while True:
+#     visited = list(list(True for _ in range(X)) for _ in range(Y))
+#     time = 0
+#     year += 1
+#     cnt0 = 0
+#     for y in range(Y):
+#         for x in range(X):
+#             if List[y][x] and visited[y][x]:
+#                 time += 1
+#                 if time > 1:
+#                     break
+#                 result = bingSan(y,x)
+#                 for i in range(len(result)):
+#                     locY,locX,cnt = result.pop()
+#                     List[locY][locX] = max(0,List[locY][locX]-cnt)
+#             elif time > 1:
+#                 break
+#             if not List[y][x]:
+#                 cnt0 += 1
+
+#         if time > 1:
+#             break
+#     if cnt0 == Y*X:
+#         print(0)
+#         break
+#     elif time>1:
+#         print(year-1)
+#         break
