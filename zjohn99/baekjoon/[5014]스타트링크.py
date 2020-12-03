@@ -43,12 +43,11 @@ def solution() :
             break
 
         for i in (x+U, x-D):
-            if 0 < i <= F and not pos[i]:
+            if 0 < i <= F and not pos[i] and i != S:
                 pos[i] = pos[x] + 1
                 q.append(i)
         
     if state :
-        # print(pos)
         return pos[G]
     else :
         return 'use the stairs'
