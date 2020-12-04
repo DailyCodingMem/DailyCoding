@@ -39,7 +39,6 @@ for t in range(1, T+1):
             if mat[i][j] == 1 and visited[i][j] == 0 :
                 ls_val.append(solution(i, j, val))
                 val += 1
-    print('--------------------')
     print(len(ls_val))
     ls_val.sort()
     for i in range(len(ls_val)):
