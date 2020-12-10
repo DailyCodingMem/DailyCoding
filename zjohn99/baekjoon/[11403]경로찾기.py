@@ -2,7 +2,6 @@
 # https://www.acmicpc.net/problem/11403
 import sys
 from collections import deque
-from pprint import pprint
 sys.stdin = open("baekjoon/[11403]경로찾기.txt",'r')
 
 def solution(x) :
