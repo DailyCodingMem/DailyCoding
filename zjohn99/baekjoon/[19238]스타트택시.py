@@ -70,6 +70,14 @@ def destination(num, dist) :
                         return ny, nx, cnt + 1
     
     return 9999999
+    # def isDone():
+    # global n, m, grid
+    # count = 0
+    # for i in range(n):
+    #     for j in range(n):
+    #         if grid[i][j] == -1: count += 1
+    # if count == m: return True
+    # else: return False
 
 
 
