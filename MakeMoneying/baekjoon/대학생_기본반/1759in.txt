@@ -1,0 +1,6 @@
+4 6
+a t c i s w
+ 
+3 7
+a e i o u b c
+ 
