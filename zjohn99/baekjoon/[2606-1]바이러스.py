@@ -1,4 +1,4 @@
-# baekjoon - [2606]바이러스 (2020-12-18)
+# baekjoon - [2606]바이러스 (2020-12-21)
 # https://www.acmicpc.net/problem/2606
 import sys
 from collections import deque
