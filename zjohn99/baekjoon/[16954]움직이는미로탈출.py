@@ -57,3 +57,31 @@ for t in range(1, T+1):
                 wall.append((i,j))
 
     print(solution())
+
+
+# def find():
+#     stack = [(7, 0, 8)]  # 7, 0에서 시작. 땅높이 y==8
+#     while stack:
+#         y, x, ground = stack.pop()
+#         for d in range(9): # 9방향
+#             ny, nx = y + dy[d], x + dx[d]
+#             if 0 <= ny < ground and 0 <= nx < 8 and MAP[ny][nx] == '.':  # 안전지대
+#                 # 꼭대기층이면 성공
+#                 if ny == 0:
+#                     return 1
+                
+#                 # 미로를 내리는 대신 사람과 땅을 올림
+#                 ny -= 1
+#                 if MAP[ny][nx] == '.':  # 올린 칸도 안전지대
+#                     # 꼭대기층이면 성공
+#                     if ny == 0:
+#                         return 1
+#                     stack.append((ny, nx, ground - 1))  # 다음 탐색
+#     return 0
+
+
+# dx = (0, 0, 1, 1, 1, 0, -1, -1, -1)
+# dy = (0, -1, -1, 0, 1, 1, 1, 0, -1)
+
+# MAP = [input() for _ in range(8)]
+# print(find())
