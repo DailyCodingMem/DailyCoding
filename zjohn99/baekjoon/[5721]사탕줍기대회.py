@@ -11,4 +11,3 @@ for t in range(1, T+1):
         if (M, N) == (0,0) :
             break
         mat = [list(map(int, input().split())) for _ in range(M)]
-        
