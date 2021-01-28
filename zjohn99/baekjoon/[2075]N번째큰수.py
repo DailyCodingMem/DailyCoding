@@ -15,6 +15,7 @@ for t in range(1, T+1):
     while(len(mat) > N): 
         heappop(mat)
 
+
     print(heappop(mat))
    
     # for i in range(len(mat)) :
