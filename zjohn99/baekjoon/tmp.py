@@ -12,6 +12,6 @@ def perm(arr, start, end) :
         arr[idx], arr[start] = arr[start], arr[idx]
 
 cnt = 0
-arr = [1,2,3,4,5]
-perm(arr,1, 5)
+arr = [0,1,2,3]
+perm(arr,0, 4)
 print(cnt)
