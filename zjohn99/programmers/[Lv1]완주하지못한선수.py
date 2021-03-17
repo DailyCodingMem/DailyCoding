@@ -2,24 +2,34 @@
 # https://programmers.co.kr/learn/courses/30/lessons/42576
 
 import sys
+from collections import Counter
 sys.stdin = open("programmers/[Lv1]완주하지못한선수.txt",'r')
 
-def solution(participant, completion):
-    answer = ''
-    dic_p = {}
-    for p in participant:
-        if p in dic_p.keys():
-            dic_p[p] += 1
-        else :
-            dic_p[p] = 1
-    for c in completion :
-        if dic_p[c] :
-            dic_p[c] -= 1
+# def solution(participant, completion):
+#     answer = ''
+#     dic_p = {}
+#     for p in participant:
+#         if p in dic_p.keys():
+#             dic_p[p] += 1
+#         else :
+#             dic_p[p] = 1
+#     for c in completion :
+#         if dic_p[c] :
+#             dic_p[c] -= 1
     
-    for key in dic_p.keys() :
-        if dic_p[key] != 0:
-            answer = key
-            return answer
+#     for key in dic_p.keys() :
+#         if dic_p[key] != 0:
+#             answer = key
+#             return answer
+
+def solution(participant, completion):
+    dic = Counter(participant)
+    for c in completion :
+        if dic[c] :
+            dic[c] -= 1
+    print(dic)
+
+
 
 # 시간초과
 # def solution(participant, completion):
