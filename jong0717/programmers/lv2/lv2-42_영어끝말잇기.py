@@ -6,7 +6,7 @@ def solution(n, words):
         peoplenum %= n
         if i >= 1:
             if word in confirm or confirm[-1][-1] != word[0]:
-                answer = [peoplenum + 1, (i % n) + 1]
+                answer = [peoplenum + 1, (i // n) + 1]
                 break
         peoplenum += 1
         confirm.append(word)
