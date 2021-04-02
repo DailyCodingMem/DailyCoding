@@ -30,3 +30,27 @@ def solution(participant, completion):
 #             completion.pop(idx)
 #         else:
 #             return name
+
+
+participant = ["leo", "kiki", "eden"]
+completion = ["eden", "kiki"]
+
+partSort = sorted(participant)
+compSort = sorted(completion)
+# print(partSort)
+# print(compSort)
+for i in range(len(partSort)):
+    try:
+        if partSort[i] != compSort[i]:
+            print(partSort[i])
+    except:
+        return partSort[-1]
+
+
+def solution(participant, completion):
+    participant.sort()
+    completion.sort()
+    for i in range(len(completion)):
+        if participant[i] != completion[i]:
+            return participant[i]
+    return participant[len(participant)-1]
