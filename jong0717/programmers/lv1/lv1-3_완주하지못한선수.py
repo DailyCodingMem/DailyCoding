@@ -22,11 +22,26 @@ def solution(participant, completion):
         if name not in com_dict or val != com_dict[name]:
             return name
 
-# 시간초과...
-# def solution(participant, completion):
-#     for name in participant:
-#         if name in completion:
-#             idx = completion.index(name)
-#             completion.pop(idx)
-#         else:
-#             return name
+
+
+
+# try except를 활용해 indexouterror 발생시 정렬된 참가자에서 마지막 값 리턴
+def solution2(participant, completion):
+    partSort = sorted(participant)
+    compSort = sorted(completion)
+    for i in range(len(partSort)):
+        try:
+            if partSort[i] != compSort[i]:
+                print(partSort[i])
+        except:
+            return partSort[-1]
+
+# completion을 기준으로 돌려서 for else를 활용하여 for문 안에서 조건문을 만족하지못하면
+# 정렬된 참가자의 마지막 값 리턴
+def solution3(participant, completion):
+    participant.sort()
+    completion.sort()
+    for i in range(len(completion)):
+        if participant[i] != completion[i]:
+            return participant[i]
+    return participant[len(participant)-1]
