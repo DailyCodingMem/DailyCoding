@@ -1,7 +1,7 @@
 # DailyCoding
 ##  Member
 
-- [dalkang](https://github.com/dalkang)
+- [cubodado](https://github.com/cubodado)
 - [JaehyukChoi923](https://github.com/JaehyukChoi923)
 - [MakeMoneying](https://github.com/Jihyeok11)
 - [jong0717](https://github.com/jong0717)
