@@ -1,4 +1,4 @@
-def solution2(files):
+def solution(files):
     answer = []
     for file in files:
         head, number, tail = '', '', ''
@@ -19,14 +19,3 @@ def solution2(files):
     return [''.join(t) for t in answer]
 
 
-# 정규표현식 이용
-import re
-files = ["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]
-# 1
-temp = [re.split(r"([0-9+])",s) for s in files]
-print(temp)
-# 2
-sort = sorted(temp, key=lambda x: (x[0].lower(), int(x[1])))
-#
-a = "img12.png"
-print(re.split(r"([0-9])",a))
