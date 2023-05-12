@@ -9,4 +9,5 @@ for num in numbers:
                 error += 1
         if error == 0:
             cnt += 1
-print(cnt)
+# print(cnt)
+print('a=', 20, 'b=', 2)
