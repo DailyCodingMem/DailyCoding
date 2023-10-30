@@ -15,3 +15,10 @@ def solution(topping):
         
 
     return answer
+
+class Graduation:
+    def message(self):
+        print("졸업축하해")
+        print("이삭아")
+isack = Graduation()
+isack.message()
