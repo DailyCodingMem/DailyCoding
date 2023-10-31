@@ -14,5 +14,3 @@ for i in score:
             temp.remove(min(temp))
             temp.append(i)
     answer.append(min(temp))
-
-print(144 ** (1/2))
